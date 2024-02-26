@@ -35,3 +35,7 @@ This part of the repository is structures as follows:
 - `si_plot 1-3`: Each subdirectory contains the notebooks to generate the respective supplementary figures from the paper
 - `table_materials`: Contains the notebook to generate table II from the paper
 - `heat_capacity`: Contains the notebook to generate the heat capacity data from the paper
+
+## Convergence_toy
+This part of the repository is structures as follows:
+Contains experiments of the convergence of MVE and shallow ensembles on a challenging toy problem
