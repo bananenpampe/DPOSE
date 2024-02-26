@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # Change to the directory where the folders are located
-cd ~/Research/UQ_subsampling/toy_convergence
 
 # Loop through each item in the current directory
 for dir in */ ; do
