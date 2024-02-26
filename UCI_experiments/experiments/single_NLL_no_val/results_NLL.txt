@@ -1,0 +1,21 @@
+Experiment: all NLL 
+concrete  rmse: 5.74 +- 0.43 
+concrete  nlls: 3.11 +- 0.18 
+kin8m  rmse: 0.09 +- 0.00 
+kin8m  nlls: -1.14 +- 0.04 
+energy  rmse: 2.19 +- 0.23 
+energy  nlls: 1.58 +- 0.21 
+housing  rmse: 3.38 +- 0.87 
+housing  nlls: 2.68 +- 0.23 
+naval  rmse: 0.00 +- 0.00 
+naval  nlls: -4.41 +- 0.99 
+power  rmse: 4.11 +- 0.17 
+power  nlls: 2.83 +- 0.04 
+wine  rmse: 0.64 +- 0.04 
+wine  nlls: 1.04 +- 0.18 
+yacht  rmse: 1.88 +- 0.55 
+yacht  nlls: 1.87 +- 0.33 
+years  rmse: 8.90 +- 0.02 
+years  nlls: 3.47 +- 0.17 
+protein  rmse: 4.68 +- 0.21 
+protein  nlls: 2.84 +- 0.03 

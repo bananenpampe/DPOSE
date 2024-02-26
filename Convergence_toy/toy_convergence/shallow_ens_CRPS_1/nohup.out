@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/kellner/Research/UQ_subsampling/toy_convergence/shallow_ens_CRPS_1/run.py", line 44, in <module>
+    model_shallow, loss_curve_shallow_ens_NLL = fit_model_NLL(x,y,nn=MLP_var_by_ensemble ,\
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kellner/Research/UQ_subsampling/toy_convergence/shallow_ens_CRPS_1/../../model/utils_modified.py", line 267, in fit_model_NLL
+    for epoch in range(epochs):
+                 ^^^^^^^^^^^^^
+TypeError: 'NoneType' object cannot be interpreted as an integer
+Traceback (most recent call last):
+  File "/home/kellner/Research/UQ_subsampling/toy_convergence/shallow_ens_CRPS_1/run.py", line 4, in <module>
+    from model.utils_modified import get_toy, fit_model_NLL
+  File "/home/kellner/Research/UQ_subsampling/toy_convergence/shallow_ens_CRPS_1/../../model/utils_modified.py", line 1, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'

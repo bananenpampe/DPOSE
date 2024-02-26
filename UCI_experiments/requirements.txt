@@ -1,0 +1,9 @@
+requests
+xlrd
+openpyxl
+uncertainty-toolbox
+netcal
+torch
+numpy
+pandas
+scipy

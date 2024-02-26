@@ -1,0 +1,13 @@
+concrete: https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength
+energy Efficiency: https://archive.ics.uci.edu/dataset/242/energy+efficiency
+yacht: https://archive.ics.uci.edu/dataset/243/yacht+hydrodynamics
+wine: https://archive.ics.uci.edu/dataset/186/wine+quality
+kinm8 (FTP): https://www.cs.toronto.edu/~delve/data/kin/desc.html
+Power Plant: https://archive.ics.uci.edu/dataset/294/combined+cycle+power+plant
+MSD year: https://archive.ics.uci.edu/dataset/203/yearpredictionmsd
+Boston_housing: https://github.com/selva86/datasets/blob/master/BostonHousing.csv or: https://www.kaggle.com/datasets/vikrishnan/boston-house-prices
+Protein: https://archive.ics.uci.edu/dataset/265/physicochemical+properties+of+protein+tertiary+structure
+Naval: https://archive.ics.uci.edu/dataset/316/condition+based+maintenance+of+naval+propulsion+plants
+
+
+

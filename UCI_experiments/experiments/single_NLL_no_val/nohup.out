@@ -1,0 +1,755 @@
+doing 20n splits
+Traceback (most recent call last):
+  File "/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/NLL_single.py", line 78, in <module>
+    Yval = torch.Tensor(Yval)
+NameError: name 'Yval' is not defined
+doing 20n splits
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+doing 20n splits
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+doing 20n splits
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+doing 20n splits
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+doing 20n splits
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+doing 20n splits
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+doing 20n splits
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+doing 20n splits
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+doing 5n splits
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+doing 20n splits
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)
+/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/single_NLL_no_val/../../model/mlp.py:368: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(mean), torch.tensor(var)

@@ -1,0 +1,42 @@
+Traceback (most recent call last):
+  File "/home/kellner/Research/UQ_subsampling/toy_convergence/shallow_ens_CRPS_4/run.py", line 44, in <module>
+    model_shallow, loss_curve_shallow_ens_NLL = fit_model_NLL(x,y,nn=MLP_var_by_ensemble ,\
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kellner/Research/UQ_subsampling/toy_convergence/shallow_ens_CRPS_4/../../model/utils_modified.py", line 268, in fit_model_NLL
+    for batch in dataloader:
+  File "/home/kellner/miniconda3/envs/science/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/home/kellner/miniconda3/envs/science/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 674, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kellner/miniconda3/envs/science/lib/python3.11/site-packages/torch/utils/data/_utils/fetch.py", line 54, in fetch
+    return self.collate_fn(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kellner/miniconda3/envs/science/lib/python3.11/site-packages/torch/utils/data/_utils/collate.py", line 265, in default_collate
+    return collate(batch, collate_fn_map=default_collate_fn_map)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kellner/miniconda3/envs/science/lib/python3.11/site-packages/torch/utils/data/_utils/collate.py", line 142, in collate
+    return [collate(samples, collate_fn_map=collate_fn_map) for samples in transposed]  # Backwards compatibility.
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kellner/miniconda3/envs/science/lib/python3.11/site-packages/torch/utils/data/_utils/collate.py", line 142, in <listcomp>
+    return [collate(samples, collate_fn_map=collate_fn_map) for samples in transposed]  # Backwards compatibility.
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kellner/miniconda3/envs/science/lib/python3.11/site-packages/torch/utils/data/_utils/collate.py", line 119, in collate
+    return collate_fn_map[elem_type](batch, collate_fn_map=collate_fn_map)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kellner/miniconda3/envs/science/lib/python3.11/site-packages/torch/utils/data/_utils/collate.py", line 162, in collate_tensor_fn
+    return torch.stack(batch, 0, out=out)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/kellner/Research/UQ_subsampling/toy_convergence/shallow_ens_CRPS_4/run.py", line 44, in <module>
+    model_shallow, loss_curve_shallow_ens_NLL = fit_model_NLL(x,y,nn=MLP_var_by_ensemble ,\
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kellner/Research/UQ_subsampling/toy_convergence/shallow_ens_CRPS_4/../../model/utils_modified.py", line 278, in fit_model_NLL
+    l.backward()
+  File "/home/kellner/miniconda3/envs/science/lib/python3.11/site-packages/torch/_tensor.py", line 492, in backward
+    torch.autograd.backward(
+  File "/home/kellner/miniconda3/envs/science/lib/python3.11/site-packages/torch/autograd/__init__.py", line 251, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

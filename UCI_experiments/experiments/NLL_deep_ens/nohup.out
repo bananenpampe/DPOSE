@@ -1,0 +1,168 @@
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 1n splits
+doing 5n splits
+doing 20n splits
+doing 20n splits
+Traceback (most recent call last):
+  File "/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/NLL_deep_ens/NLL_deep_ensembles.py", line 100, in <module>
+    model_mse, mask_08 = fit_deepensemble_NLL_sequential(Xtrain,Ytrain,nn=MLP_mean_var ,\
+  File "/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/NLL_deep_ens/../../model/fitting.py", line 335, in fit_deepensemble_NLL_sequential
+    model = fit_model_NLL(x_ens,y_ens,nn,model_kwargs,solver,solver_kwargs,training_kwargs,loss)
+  File "/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/NLL_deep_ens/../../model/fitting.py", line 318, in fit_model_NLL
+    l.backward()
+  File "/opt/anaconda3/lib/python3.9/site-packages/torch/_tensor.py", line 488, in backward
+    torch.autograd.backward(
+  File "/opt/anaconda3/lib/python3.9/site-packages/torch/autograd/__init__.py", line 197, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+doing 20n splits
+doing 20n splits
+doing 20n splits
+Traceback (most recent call last):
+  File "/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/NLL_deep_ens/NLL_deep_ensembles.py", line 100, in <module>
+    model_mse, mask_08 = fit_deepensemble_NLL_sequential(Xtrain,Ytrain,nn=MLP_mean_var ,\
+  File "/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/NLL_deep_ens/../../model/fitting.py", line 335, in fit_deepensemble_NLL_sequential
+    model = fit_model_NLL(x_ens,y_ens,nn,model_kwargs,solver,solver_kwargs,training_kwargs,loss)
+  File "/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/NLL_deep_ens/../../model/fitting.py", line 309, in fit_model_NLL
+    for batch in dataloader:
+  File "/opt/anaconda3/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "/opt/anaconda3/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 670, in _next_data
+    index = self._next_index()  # may raise StopIteration
+  File "/opt/anaconda3/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 618, in _next_index
+    return next(self._sampler_iter)  # may raise StopIteration
+  File "/opt/anaconda3/lib/python3.9/site-packages/torch/utils/data/sampler.py", line 254, in __iter__
+    for idx in self.sampler:
+KeyboardInterrupt
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 1n splits
+doing 5n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 1n splits
+doing 5n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 1n splits
+doing 5n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 1n splits
+doing 5n splits
+doing 20n splits
+Traceback (most recent call last):
+  File "/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/NLL_deep_ens/NLL_deep_ensembles.py", line 94, in <module>
+    model_mse, mask_08 = fit_deepensemble_NLL_sequential(Xtrain,Ytrain,nn=MLP_mean_var ,\
+  File "/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/NLL_deep_ens/../../model/fitting.py", line 338, in fit_deepensemble_NLL_sequential
+    model = fit_model_NLL(x_ens,y_ens,nn,model_kwargs,solver,solver_kwargs,training_kwargs,loss)
+  File "/Users/matthiaskellner/Documents/PhD/UQ_subsampling/experiments/NLL_deep_ens/../../model/fitting.py", line 309, in fit_model_NLL
+    for batch in dataloader:
+  File "/opt/anaconda3/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "/opt/anaconda3/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 671, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/opt/anaconda3/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 61, in fetch
+    return self.collate_fn(data)
+  File "/opt/anaconda3/lib/python3.9/site-packages/torch/utils/data/_utils/collate.py", line 265, in default_collate
+    return collate(batch, collate_fn_map=default_collate_fn_map)
+  File "/opt/anaconda3/lib/python3.9/site-packages/torch/utils/data/_utils/collate.py", line 143, in collate
+    return [collate(samples, collate_fn_map=collate_fn_map) for samples in transposed]  # Backwards compatibility.
+  File "/opt/anaconda3/lib/python3.9/site-packages/torch/utils/data/_utils/collate.py", line 143, in <listcomp>
+    return [collate(samples, collate_fn_map=collate_fn_map) for samples in transposed]  # Backwards compatibility.
+  File "/opt/anaconda3/lib/python3.9/site-packages/torch/utils/data/_utils/collate.py", line 120, in collate
+    return collate_fn_map[elem_type](batch, collate_fn_map=collate_fn_map)
+  File "/opt/anaconda3/lib/python3.9/site-packages/torch/utils/data/_utils/collate.py", line 163, in collate_tensor_fn
+    return torch.stack(batch, 0, out=out)
+KeyboardInterrupt
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 1n splits
+doing 5n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 1n splits
+doing 5n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 1n splits
+doing 5n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 1n splits
+doing 5n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 1n splits
+doing 5n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 20n splits
+doing 1n splits
+doing 5n splits

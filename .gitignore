@@ -158,3 +158,37 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+
+# the UCI data
+UCI_experiments/data/datasets/
+
+# the H2O data
+Atomistic_experiments/data/H2O/*.xyz
+
+# the QM9 data
+Atomistic_experiments/data/QM9/*.xyz
+Atomistic_experiments/data/QM9/*.extxyz
+Atomistic_experiments/data/QM9/*.npy
+
+# the BaTiO3 data
+Atomistic_experiments/data/BaTiO3/BaTiO3_MaterialsCloud*
+Atomistic_experiments/data/BaTiO3/*.xyz
+
+# the Li3PS4 data
+Atomistic_experiments/data/Li3PS4/*.xyz
+Atomistic_experiments/data/Li3PS4/*.extxyz
+Atomistic_experiments/data/Li3PS4/MaterialsCloudArchive*
+
+
+# The uncompresed H2O trajectories
+Atomistic_experiments/trajectories_H2O
+
+#MacOS files
+.DS_Store
+
+#ignore large forces
+Atomistic_experiments/materials_model_predictions/H2O/H2O_eval_forces/train*
+Atomistic_experiments/materials_model_predictions/H2O/H2O_eval_forces/val*
+
+Atomistic_experiments/materials_model_predictions/H2O_size_extensive/size_M_pred_atomic_energies.pt

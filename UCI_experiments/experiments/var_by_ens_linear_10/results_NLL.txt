@@ -1,0 +1,61 @@
+Experiment: all NLL 
+concrete  rmse: 6.06 +- 0.50 
+concrete  nlls: 3.10 +- 0.20 
+concrete  nlls rescaled w. alpha: 3.06 +- 0.15 
+concrete  nlls rescaled w. iso: 3.12 +- 0.21 
+concrete  coeffs: 13.72 +- 16.59 
+concrete  coeffs rescaled w. alpha: 17.53 +- 10.88 
+kin8m  rmse: 0.08 +- 0.00 
+kin8m  nlls: -1.14 +- 0.03 
+kin8m  nlls rescaled w. alpha: -1.15 +- 0.03 
+kin8m  nlls rescaled w. iso: -1.14 +- 0.05 
+kin8m  coeffs: 11.29 +- 4.11 
+kin8m  coeffs rescaled w. alpha: 11.88 +- 3.98 
+energy  rmse: 2.40 +- 0.23 
+energy  nlls: 1.68 +- 0.14 
+energy  nlls rescaled w. alpha: 1.68 +- 0.15 
+energy  nlls rescaled w. iso: 2.19 +- 1.63 
+energy  coeffs: 47.19 +- 7.87 
+energy  coeffs rescaled w. alpha: 47.10 +- 8.84 
+housing  rmse: 3.72 +- 1.04 
+housing  nlls: 2.60 +- 0.25 
+housing  nlls rescaled w. alpha: 2.55 +- 0.18 
+housing  nlls rescaled w. iso: 2.74 +- 0.39 
+housing  coeffs: 5.38 +- 26.42 
+housing  coeffs rescaled w. alpha: 11.65 +- 19.47 
+naval  rmse: 0.00 +- 0.00 
+naval  nlls: -4.52 +- 0.44 
+naval  nlls rescaled w. alpha: -4.64 +- 0.39 
+naval  nlls rescaled w. iso: -4.80 +- 0.30 
+naval  coeffs: 17.63 +- 32.09 
+naval  coeffs rescaled w. alpha: 29.25 +- 23.31 
+power  rmse: 4.11 +- 0.21 
+power  nlls: 2.83 +- 0.05 
+power  nlls rescaled w. alpha: 2.83 +- 0.05 
+power  nlls rescaled w. iso: 2.83 +- 0.06 
+power  coeffs: 0.19 +- 3.54 
+power  coeffs rescaled w. alpha: 0.87 +- 3.24 
+wine  rmse: 0.65 +- 0.03 
+wine  nlls: 1.17 +- 0.25 
+wine  nlls rescaled w. alpha: 1.05 +- 0.14 
+wine  nlls rescaled w. iso: 1.99 +- 1.46 
+wine  coeffs: -27.68 +- 33.71 
+wine  coeffs rescaled w. alpha: -10.55 +- 16.08 
+yacht  rmse: 2.87 +- 1.69 
+yacht  nlls: 1.26 +- 0.25 
+yacht  nlls rescaled w. alpha: 1.21 +- 0.26 
+yacht  nlls rescaled w. iso: 1.36 +- 0.34 
+yacht  coeffs: 53.31 +- 21.69 
+yacht  coeffs rescaled w. alpha: 56.81 +- 18.62 
+years  rmse: 8.95 +- 0.02 
+years  nlls: 3.39 +- 0.01 
+years  nlls rescaled w. alpha: 3.39 +- 0.01 
+years  nlls rescaled w. iso: 3.38 +- 0.01 
+years  coeffs: 22.99 +- 1.08 
+years  coeffs rescaled w. alpha: 23.47 +- 0.65 
+protein  rmse: 4.63 +- 0.09 
+protein  nlls: 2.86 +- 0.06 
+protein  nlls rescaled w. alpha: 2.85 +- 0.05 
+protein  nlls rescaled w. iso: 2.86 +- 0.05 
+protein  coeffs: 12.60 +- 6.11 
+protein  coeffs rescaled w. alpha: 13.15 +- 5.15 
