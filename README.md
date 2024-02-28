@@ -1,7 +1,7 @@
 # DPOSE
 Contains supplementary code and data for the \
-"Uncertainty quantification by direct propagation of shallow ensembles" \
-- manuscript: http://arxiv.org/abs/2402.16621 \
+"Uncertainty quantification by direct propagation of shallow ensembles" 
+- manuscript: http://arxiv.org/abs/2402.16621 
 
 The repository is organized as follows:
 - `./UCI_experiments/` contains the regression experiments on UCI datasets
