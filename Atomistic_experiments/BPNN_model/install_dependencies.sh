@@ -4,7 +4,6 @@
 
 
 #check if rust already installed, if yes, exit with text
-#!/bin/bash
 
 # Check if Rust compiler (rustc) is installed
 if command -v rustc &> /dev/null; then
@@ -73,3 +72,11 @@ pip install $PIP_FLAGS "rascaline @ git+https://github.com/luthaf/rascaline@$RAS
 pip install $PIP_FLAGS "rascaline-torch @ git+https://github.com/luthaf/rascaline@$RASCALINE_COMMIT#subdirectory=python/rascaline-torch"
 
 pip install -r requirements.txt
+
+echo "All dependencies have been installed. - running a minimal test of the install"
+
+cd ./test_install
+
+python training.py
+#no ensure that this does not exit with fail
+python -u compare.py
