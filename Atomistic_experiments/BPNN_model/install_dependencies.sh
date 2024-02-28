@@ -30,8 +30,9 @@ rustup default 1.74.0
 # Verify the installation
 rustc --version
 
-#install cpu pytorch 2.0.1
-pip cache purge
+
+# pip cache purge
+# install cpu pytorch 2.0.1
 
 pip install cmake numpy
 pip install --extra-index-url https://download.pytorch.org/whl/cpu torch==2.0.1
