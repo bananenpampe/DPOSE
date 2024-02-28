@@ -192,3 +192,9 @@ Atomistic_experiments/materials_model_predictions/H2O/H2O_eval_forces/train*
 Atomistic_experiments/materials_model_predictions/H2O/H2O_eval_forces/val*
 
 Atomistic_experiments/materials_model_predictions/H2O_size_extensive/size_M_pred_atomic_energies.pt
+
+#ignores checkpoint wandb files
+wandb/
+
+#ignores the BPNN model
+BPNN_model/H2O/
