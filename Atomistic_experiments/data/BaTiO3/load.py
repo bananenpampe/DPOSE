@@ -39,12 +39,21 @@ if __name__ == "__main__":
     
     random.seed(0)
 
-    download_BaTiO3()
+    #download_BaTiO3()
 
     frames = ase.io.read(DATASET_PATH / "BaTiO3_MaterialsCloud/MLframework/GAP/Training_set.xyz",":")
 
     for frame in frames:
         frame.calculator = None
+    
+    for i, atoms in enumerate(frames):
+        atoms.set_calculator(None)
+
+        if hasattr(atoms, 'calculator') and atoms.calculator is not None:
+            atoms.calculator.results.clear()
+
+        if 'stress' in atoms.info:
+            del atoms.info['stress']
     
     random.shuffle(frames)
 

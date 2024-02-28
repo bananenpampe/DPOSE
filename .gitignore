@@ -198,3 +198,5 @@ wandb/
 
 #ignores the BPNN model
 BPNN_model/H2O/
+#ignores the rust_installation
+BPNN_model/rust_installation/
