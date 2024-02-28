@@ -1,6 +1,25 @@
 #!/bin/bash
 
 # copies the utilities for the BPNN-SOAP model in this directory
+
+
+#check if rust already installed, if yes, exit with text
+#!/bin/bash
+
+# Check if Rust compiler (rustc) is installed
+if command -v rustc &> /dev/null; then
+    echo "Rust is already installed. This script will attempt an install with rust 1.74.0 version, better start in a fresh environment"
+    exit 1
+fi
+
+# Check if Cargo is installed
+if command -v cargo &> /dev/null; then
+    echo "Cargo is already installed. This script will attempt an install with rust 1.74.0 version, better start in a fresh environment"
+    exit 1
+fi
+
+echo "Rust and Cargo are not installed."
+
 git clone -b move-rascaline git@github.com:bananenpampe/H2O.git
 
 # Install cargo v<1.75.0
@@ -12,6 +31,7 @@ export MACOSX_DEPLOYMENT_TARGET=11
 # Set the installation directories
 export RUSTUP_HOME="$PWD/rust_installation/rustup"
 export CARGO_HOME="$PWD/rust_installation/cargo"
+
 
 # Download and install rustup, and thus Rust, into the specified directories
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
