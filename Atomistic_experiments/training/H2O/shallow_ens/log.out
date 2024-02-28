@@ -1,0 +1,172 @@
+/home/kellner/BPNN_packages/H2O/model/dataset/../equisolve_futures/convert_torch.py:152: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  values=torch.tensor(gradient_values.reshape(-1, 3, 1)),
+wandb: Currently logged in as: bananenpampe. Use `wandb login --relogin` to force relogin
+wandb: Appending key for api.wandb.ai to your netrc file: /home/kellner/.netrc
+wandb: Tracking run with wandb version 0.15.10
+wandb: Run data is saved locally in ./wandb/run-20230911_222129-rcf484zl
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run dandy-field-88
+wandb: ⭐️ View project at https://wandb.ai/bananenpampe/H2O-sr
+wandb: 🚀 View run at https://wandb.ai/bananenpampe/H2O-sr/runs/rcf484zl
+train split: [359, 628, 1437, 1039, 1049, 1333, 1174, 1433, 1259, 1158, 1425, 1590, 1006, 282, 1154, 57, 1180, 15, 648, 1072, 1279, 1133, 969, 1582, 673, 716, 1356, 604, 757, 100, 955, 567, 789, 1153, 244, 611, 557, 1375, 768, 714, 818, 483, 1505, 845, 190, 527, 565, 433, 1263, 475, 750, 1029, 37, 1117, 1130, 224, 817, 821, 712, 198, 1548, 1046, 1026, 384, 998, 888, 1307, 523, 763, 193, 901, 1580, 51, 136, 1151, 52, 622, 590, 1168, 983, 1497, 277, 783, 1275, 181, 85, 14, 24, 510, 885, 1407, 1077, 671, 270, 5, 249, 1093, 217, 1116, 1531, 770, 35, 155, 767, 668, 1104, 900, 803, 295, 629, 231, 1481, 89, 506, 1261, 953, 179, 99, 865, 211, 638, 926, 1102, 280, 402, 588, 152, 317, 1320, 364, 1220, 91, 934, 972, 574, 517, 1522, 1533, 419, 678, 568, 553, 1113, 948, 962, 830, 278, 1532, 874, 841, 275, 474, 63, 1321, 446, 368, 49, 576, 204, 597, 598, 631, 481, 401, 746, 1426, 559, 1103, 1562, 486, 881, 1161, 241, 522, 502, 1397, 1543, 210, 1138, 81, 1490, 411, 738, 1109, 781, 837, 665, 603, 350, 1587, 683, 832, 1214, 154, 428, 395, 695, 908, 1484, 876, 163, 467, 1345, 1474, 340, 1171, 71, 108, 140, 1005, 1507, 1503, 882, 599, 1381, 169, 247, 1294, 928, 1348, 412, 1376, 32, 1198, 569, 1272, 753, 1059, 1079, 608, 946, 153, 103, 1341, 320, 1577, 463, 1387, 1191, 1435, 626, 875, 1264, 627, 804, 1088, 1538, 333, 477, 355, 1228, 730, 230, 351, 297, 728, 388, 950, 653, 847, 1351, 887, 1223, 561, 993, 1362, 148, 1159, 468, 736, 685, 930, 470, 1213, 1141, 697, 656, 554, 641, 1157, 485, 17, 1372, 281, 1478, 1043, 748, 1584, 201, 252, 138, 661, 1048, 877, 1206, 259, 443, 435, 632, 551, 1443, 1269, 800, 1238, 843, 711, 174, 129, 20, 1260, 76, 234, 1392, 1519, 543, 1380, 1554, 287, 634, 1550, 824, 591, 518, 480, 1291, 75, 959, 1189, 1239, 256, 1024, 472, 199, 1164, 699, 1534, 1405, 1488, 755, 1265, 1135, 344, 1285, 698, 640, 1459, 584, 886, 1423, 515, 1569, 1204, 229, 110, 453, 216, 1314, 383, 949, 1579, 1001, 1516, 846, 1360, 23, 1396, 462, 1561, 476, 251, 11, 1196, 1015, 1468, 1050, 1518, 931, 293, 944, 844, 1091, 1379, 994, 516, 909, 936, 336, 337, 394, 342, 820, 175, 1069, 1493, 371, 1463, 1126, 106, 947, 540, 982, 162, 97, 409, 1274, 1140, 1227, 1017, 766, 492, 720, 1358, 547, 498, 1542, 1215, 669, 898, 284, 112, 511, 158, 233, 250, 496, 1096, 269, 13, 862, 1246, 828, 654, 1310, 1115, 302, 311, 180, 645, 1451, 1374, 417, 1492, 375, 550, 920, 977, 392, 512, 990, 396, 1190, 894, 1529, 743, 39, 583, 90, 869, 1566, 729, 1044, 777, 12, 700, 1469, 1420, 718, 1099, 1136, 1095, 414, 70, 549, 878, 1097, 863, 321, 799, 119, 744, 1176, 545, 1219, 1449, 122, 461, 705, 942, 1063, 670, 1132, 1078, 1255, 366, 1353, 1455, 1486, 1142, 578, 1009, 60, 139, 737, 196, 62, 921, 439, 219, 263, 274, 379, 680, 624, 827, 853, 742, 176, 929, 747, 1498, 779, 279, 1108, 991, 725, 902, 572, 292, 109, 658, 1327, 952, 764, 131, 1055, 614, 1054, 184, 1511, 870, 809, 1025, 840, 218, 423, 826, 971, 246, 1003, 1342, 120, 1382, 790, 505, 1089, 48, 1127, 693, 1458, 9, 867, 313, 580, 1422, 1462, 493, 613, 662, 529, 1118, 1051, 257, 1388, 192, 354, 537, 1461, 895, 1248, 1574, 1013, 1364, 1286, 1464, 1011, 1224, 548, 330, 326, 1167, 1446, 347, 197, 833, 226, 1585, 1278, 1036, 438, 65, 1401, 797, 741, 675, 1540, 1338, 1230, 1404, 43, 272, 345, 1199, 487, 1030, 501, 465, 892, 1471, 560, 528, 55, 469, 1256, 361, 1525, 524, 807, 1343, 625, 919, 177, 58, 1081, 650, 854, 1513, 34, 397, 50, 1218, 932, 449, 756, 225, 707, 503, 1287, 1414, 357, 1125, 916, 907, 132, 957, 988, 657, 458, 1429, 445, 819, 1042, 172, 1555, 338, 471, 1170, 732, 1591, 294, 586, 144, 232, 726, 1520, 880, 933, 1336, 1378, 42, 1394, 1288, 404, 1479, 1480, 539, 1100, 400, 784, 811, 26, 220, 636, 53, 507, 935, 307, 1527, 61, 1301, 504, 325, 1357, 500, 980, 796, 1200, 904, 1322, 759, 864, 771, 1276, 142, 479, 859, 410, 1281, 805, 713, 1268, 890, 1487, 643, 581, 940, 1181, 903, 1578, 1129, 780, 1499, 420, 1273, 544, 1369, 992, 813, 1065, 137, 1037, 289, 296, 1150, 69, 1524, 1512, 542, 121, 1340, 1395, 1061, 268, 1144, 36, 87, 609, 1177, 688, 290, 362, 1052, 104, 852, 1145, 727, 595, 538, 407, 262, 1284, 1045, 1064, 1347, 1035, 22, 851, 1576, 415, 556, 1195, 778, 509, 694, 94, 836, 1186, 723, 434, 984, 623, 558, 308, 1283, 787, 117, 857, 1517, 925, 1366, 633, 459, 989, 1, 301, 1586, 773, 494, 88, 1205, 646, 473, 1092, 860, 535, 348, 915, 1412, 1185, 1416, 1410, 1211, 834, 1386, 1325, 868, 814, 157, 704, 1073, 571, 114, 1237, 111, 1152, 189, 1350, 1472, 1467, 1022, 208, 1445, 328, 745, 961, 8, 1553, 1557, 59, 541, 1316, 1413, 1016, 455, 1032, 1551, 363, 652, 305, 978, 605, 1323, 1419, 426, 1466, 1225, 1086, 1571, 1417, 719, 1303, 403, 21, 1509, 1110, 47, 679, 429, 381, 298, 897, 772, 242, 1027, 520, 323, 228, 1318, 1530, 150, 1296, 160, 315, 1496, 546, 105, 1589, 607, 188, 334, 1124, 566, 899, 1506, 1147, 484, 343, 370, 213, 1545, 133, 264, 1558, 352, 1526, 115, 464, 1231, 1210, 879, 238, 1308, 1354, 706, 377, 1568, 7, 765, 126, 1058, 749, 689, 674, 209, 1331, 212, 146, 1309, 610, 951, 374, 838, 1456, 1339, 10, 182, 356, 353, 960, 708, 1212, 124, 1053, 360, 1515, 258, 1371, 332, 884, 941, 508, 1292, 427, 702, 441, 457, 810, 1105, 1252, 159, 792, 973, 101, 1319, 1242, 107, 958, 1306, 945, 432, 579, 913, 436, 149, 116, 968, 312, 519, 430, 1475, 715, 514, 798, 642, 1023, 1370, 1365, 1335, 1315, 1160, 221, 896, 585, 582, 1234, 1385, 967, 1367, 1465, 261, 1450, 40, 1098, 923, 45, 1216, 1192, 1289, 1389, 1243, 466, 195, 1457, 380, 910, 802, 78, 1565, 248, 601, 793, 1134, 606, 1197, 1431, 1299, 123, 227, 1004, 1070, 399, 709, 215, 663, 1337, 66, 1083, 1056, 964, 1403, 96, 1247, 791, 954, 1122, 842, 722, 310, 167, 1007, 288, 1087, 1201, 1229, 113, 1328, 587, 489, 260, 1226, 1440, 785, 786, 835, 620, 536, 1536, 1184, 1442, 521, 1038, 1209, 372, 1304, 41, 478, 1359, 987, 1453, 1173, 422, 1193, 156, 1060, 185, 68, 1028, 1085, 782, 1034, 760, 943, 304, 329, 677, 1172, 31, 615, 1257, 1293, 460, 1349, 1485, 1057, 1183, 135, 1383, 602, 776, 319, 526, 1137, 1075, 72, 659, 651, 696, 19, 1436, 1111, 1155, 1021, 1020, 660, 1014, 1549, 1169, 831, 303, 999, 1560, 1398, 1119, 740, 774, 938, 1182, 214, 1438, 442, 1250, 424, 1573, 815, 1018, 1539, 413, 924, 1076, 56, 1312, 1330, 1384, 1361, 883, 1188, 534, 450, 754, 171, 866, 444, 1000, 918, 593, 1062, 1139, 806, 1282, 16, 1500, 1430, 1563, 405, 173, 134, 178, 1424, 1156, 341, 318, 1452, 618, 77, 873, 1019, 1267, 1411, 1427, 703, 690, 970, 985, 1355, 203, 222, 849, 612, 672, 825, 1277, 145, 1071, 367, 630, 98, 1326, 979, 1262, 600, 265, 1295, 808, 739, 592, 1581, 1483, 335, 552, 84, 73, 692, 1544, 752, 691, 1535, 1448, 309, 283, 18, 1514, 1541, 769, 425, 365, 1101, 762, 891, 939, 1302, 1244, 1258, 1317, 751, 644, 1143, 531, 421, 83, 86, 38, 570, 316, 235, 710, 1066, 273, 525, 1418, 927, 562, 1415, 166, 812, 974]
+val split: [205, 373, 573, 619, 406, 1245, 243, 390, 200, 1537, 1082, 4, 29, 437, 6, 1556, 855, 822, 30, 267, 170, 1546, 385, 850, 102, 1408, 639, 667, 1012, 1482, 0, 1236, 1149, 997, 1080, 914, 322, 1588, 130, 912, 339, 95, 856, 1528, 823, 64, 1334, 1163, 775, 1523, 1305, 456, 490, 327, 684, 393, 1217, 3, 165, 1332, 848, 794, 1567, 271, 1271, 1297, 1208, 735, 1504, 1249, 721, 986, 491, 276, 575, 1406, 93, 687, 161, 937, 25, 1148, 314, 1373, 1346, 795, 1460, 1329, 637, 1041, 1165, 839, 965, 27, 358, 1363, 905, 1222, 240, 1572, 1084, 701, 331, 324, 118, 1508, 1377, 346, 1166, 963, 734, 1402, 408, 1421, 1439, 1501, 80, 956, 1031, 1409, 369, 893, 717, 616, 1324, 147, 452, 143, 1489, 207, 1270, 871, 1114, 46, 1470, 125, 431, 981, 253, 378, 398, 44, 1240, 74, 237, 758, 1502, 1477, 245, 1179, 1241, 386, 1300, 254, 54, 1564, 1393, 1233, 1094]
+test split: [1298, 1175, 92, 448, 1428, 299, 1559, 1575, 872, 1510, 349, 761, 451, 1476, 239, 555, 33, 497, 389, 686, 1290, 1202, 996, 236, 1491, 664, 168, 731, 1434, 1313, 1352, 1008, 922, 563, 1187, 858, 1207, 1391, 440, 482, 1068, 564, 1074, 1570, 801, 1399, 1107, 1432, 1521, 79, 306, 266, 1390, 183, 141, 975, 532, 1344, 1254, 67, 382, 387, 376, 594, 495, 1178, 649, 1592, 1221, 187, 911, 589, 1203, 1120, 1235, 416, 1106, 681, 1121, 255, 1447, 596, 1128, 617, 223, 1002, 1040, 655, 164, 186, 917, 1112, 291, 488, 454, 1162, 391, 128, 1441, 666, 1495, 499, 682, 1010, 1253, 2, 1280, 1368, 1454, 816, 1473, 191, 28, 1123, 127, 533, 1067, 906, 1583, 1131, 418, 1311, 1251, 647, 889, 724, 206, 1146, 966, 676, 1400, 151, 1494, 202, 635, 300, 1232, 1444, 1090, 513, 1266, 194, 1547, 286, 577, 285, 1033, 447, 1194, 733, 976, 621, 829, 995, 1047, 530, 82, 861, 1552, 788]
+seed 0
+/home/kellner/BPNN_packages/H2O/example/64_rs_ps_4_batch_correct_w_UQ/../../model/transformer/composition.py:182: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  unique_labels = torch.tensor(self.unique_species, dtype=torch.int32).reshape(-1,1)
+BPNNRascalineModule(
+  (model): BPNNModel(
+    (feature): UnitFeatures()
+    (interaction): BPNNInteraction(
+      (model): metatensorMLPLazy(
+        (m_map): ModuleDict(
+          (LabelsEntry(species_center=1)): MLP_mean(
+            (nn): Sequential(
+              (0): Linear(in_features=482, out_features=64, bias=True)
+              (1): SiLU()
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): SiLU()
+            )
+            (mean_out): Linear(in_features=64, out_features=64, bias=True)
+          )
+          (LabelsEntry(species_center=8)): MLP_mean(
+            (nn): Sequential(
+              (0): Linear(in_features=482, out_features=64, bias=True)
+              (1): SiLU()
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): SiLU()
+            )
+            (mean_out): Linear(in_features=64, out_features=64, bias=True)
+          )
+        )
+      )
+    )
+    (aggregation): BPNNStructureWiseAggregation()
+    (response): ForceUncertaintyRespone()
+  )
+  (loss_fn): EnergyForceUncertaintyLoss(
+    (energy_loss): GaussianNLLLoss()
+    (force_loss): MSELoss()
+  )
+  (loss_rmse): EnergyForceLoss(
+    (energy_loss): MSELoss()
+    (force_loss): MSELoss()
+  )
+  (loss_mae): EnergyForceLoss(
+    (energy_loss): L1Loss()
+    (force_loss): L1Loss()
+  )
+  (energy_transformer): CompositionTransformer(
+    (calc): AtomicComposition()
+  )
+)
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+`Trainer(val_check_interval=1.0)` was configured so validation will run at the end of the training epoch..
+
+  | Name               | Type                       | Params
+------------------------------------------------------------------
+0 | model              | BPNNModel                  | 78.5 K
+1 | loss_fn            | EnergyForceUncertaintyLoss | 0     
+2 | loss_rmse          | EnergyForceLoss            | 0     
+3 | loss_mae           | EnergyForceLoss            | 0     
+4 | energy_transformer | CompositionTransformer     | 2     
+------------------------------------------------------------------
+78.5 K    Trainable params
+2         Non-trainable params
+78.5 K    Total params
+0.314     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/kellner/miniconda3/envs/metatens/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:442: PossibleUserWarning: The dataloader, val_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 72 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+/home/kellner/miniconda3/envs/metatens/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:442: PossibleUserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 72 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+/home/kellner/miniconda3/envs/metatens/lib/python3.10/site-packages/torch/autograd/__init__.py:200: UserWarning: second derivatives with respect to positions are not implemented and will not be accumulated during backward() calls. If you need second derivatives, please open an issue on rascaline repository. (Triggered internally at /tmp/pip-req-build-izifuv1s/rascaline-torch/src/autograd.cpp:314.)
+  Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+Epoch 00199: reducing learning rate of group 0 to 5.0000e-03.
+Epoch 00246: reducing learning rate of group 0 to 2.5000e-03.
+Epoch 00276: reducing learning rate of group 0 to 1.2500e-03.
+Epoch 00294: reducing learning rate of group 0 to 6.2500e-04.
+Epoch 00310: reducing learning rate of group 0 to 3.1250e-04.
+Epoch 00334: reducing learning rate of group 0 to 1.5625e-04.
+Epoch 00350: reducing learning rate of group 0 to 7.8125e-05.
+Epoch 00366: reducing learning rate of group 0 to 3.9063e-05.
+Epoch 00382: reducing learning rate of group 0 to 1.9531e-05.
+Epoch 00398: reducing learning rate of group 0 to 9.7656e-06.
+Epoch 00414: reducing learning rate of group 0 to 4.8828e-06.
+Epoch 00430: reducing learning rate of group 0 to 2.4414e-06.
+Epoch 00446: reducing learning rate of group 0 to 1.2207e-06.
+Epoch 00462: reducing learning rate of group 0 to 1.0000e-06.
+`Trainer.fit` stopped: `max_epochs=500` reached.
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/kellner/miniconda3/envs/metatens/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:442: PossibleUserWarning: The dataloader, test_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 72 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+       Test metric             DataLoader 0
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+    test_energy_%rmse      0.031579118696687426
+     test_energy_mae        0.2261529319817555
+     test_energy_mse        0.17947353271928482
+    test_energy_rmse         0.42364316673267
+    test_forces_%rmse      0.031597002204546545
+     test_forces_mae       0.041720648280841696
+     test_forces_mse        0.00466904427164825
+    test_forces_rmse        0.06833040517696533
+        test_loss           0.18414257699093306
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+wandb: Waiting for W&B process to finish... (success).
+wandb: 
+wandb: Run history:
+wandb:               epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:             lr-Adam ████████████████▄▄▄▄▃▃▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:   test_energy_%rmse ▁
+wandb:     test_energy_mae ▁
+wandb:     test_energy_mse ▁
+wandb:    test_energy_rmse ▁
+wandb:   test_forces_%rmse ▁
+wandb:     test_forces_mae ▁
+wandb:     test_forces_mse ▁
+wandb:    test_forces_rmse ▁
+wandb:           test_loss ▁
+wandb:          train_loss █▅▄▆▆▅▃▅▄▄▆▆▆▃▅▂▅▇▃▃▄▄▂▂▃▃▂▁▂▂▁▁▄▃▁▅▃▂▁▃
+wandb: trainer/global_step ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▄▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:    val_energy_%rmse ▁▁█▁▁▁▁▁▁▁▅▂▁▁▁▁▁▂▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:      val_energy_mae ▁▁█▁▁▁▁▁▁▁▅▂▁▁▁▁▁▂▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:      val_energy_mse ▁▁█▁▁▁▁▁▁▁▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:     val_energy_rmse ▁▁█▁▁▁▁▁▁▁▅▂▁▁▁▁▁▂▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:    val_forces_%rmse █▆▃▃▃▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▄▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:      val_forces_mae █▇▃▃▃▂▂▂▂▂▃▂▂▁▁▁▁▂▁▁▁▅▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:      val_forces_mse █▆▃▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▄▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:     val_forces_rmse █▆▃▃▃▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▄▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            val_loss ▁▁█▁▁▁▁▁▁▁▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:               epoch 500
+wandb:             lr-Adam 0.0
+wandb:   test_energy_%rmse 0.03158
+wandb:     test_energy_mae 0.22615
+wandb:     test_energy_mse 0.17947
+wandb:    test_energy_rmse 0.42364
+wandb:   test_forces_%rmse 0.0316
+wandb:     test_forces_mae 0.04172
+wandb:     test_forces_mse 0.00467
+wandb:    test_forces_rmse 0.06833
+wandb:           test_loss 0.18414
+wandb:          train_loss 0.00233
+wandb: trainer/global_step 159500
+wandb:    val_energy_%rmse 0.03281
+wandb:      val_energy_mae 0.27955
+wandb:      val_energy_mse 0.23108
+wandb:     val_energy_rmse 0.48071
+wandb:    val_forces_%rmse 0.03072
+wandb:      val_forces_mae 0.04171
+wandb:      val_forces_mse 0.00468
+wandb:     val_forces_rmse 0.06843
+wandb:            val_loss 0.23576
+wandb: 
+wandb: 🚀 View run dandy-field-88 at: https://wandb.ai/bananenpampe/H2O-sr/runs/rcf484zl
+wandb: ️⚡ View job at https://wandb.ai/bananenpampe/H2O-sr/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjk2NzA1MTI1/version_details/v1
+wandb: Synced 6 W&B file(s), 0 media file(s), 3 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20230911_222129-rcf484zl/logs

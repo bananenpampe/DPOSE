@@ -1,0 +1,169 @@
+/home/kellner/BPNN_packages/H2O/model/dataset/../equisolve_futures/convert_torch.py:152: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  values=torch.tensor(gradient_values.reshape(-1, 3, 1)),
+wandb: Currently logged in as: bananenpampe. Use `wandb login --relogin` to force relogin
+wandb: Appending key for api.wandb.ai to your netrc file: /home/kellner/.netrc
+wandb: Tracking run with wandb version 0.15.10
+wandb: Run data is saved locally in ./wandb/run-20230918_020712-sfkedecm
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run 6
+wandb: ⭐️ View project at https://wandb.ai/bananenpampe/H2O-mse-mean-only-ensemble
+wandb: 🚀 View run at https://wandb.ai/bananenpampe/H2O-mse-mean-only-ensemble/runs/sfkedecm
+seed 6
+/home/kellner/BPNN_packages/H2O/example/mse_commitee/6/../../../model/transformer/composition.py:182: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  unique_labels = torch.tensor(self.unique_species, dtype=torch.int32).reshape(-1,1)
+bias True
+bias True
+BPNNRascalineModule(
+  (model): BPNNModel(
+    (feature): UnitFeatures()
+    (interaction): BPNNInteraction(
+      (model): metatensorMLPLazy(
+        (m_map): ModuleDict(
+          (LabelsEntry(species_center=1)): MLP_mean(
+            (nn): Sequential(
+              (0): Linear(in_features=482, out_features=64, bias=True)
+              (1): SiLU()
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): SiLU()
+            )
+            (mean_out): Linear(in_features=64, out_features=1, bias=True)
+          )
+          (LabelsEntry(species_center=8)): MLP_mean(
+            (nn): Sequential(
+              (0): Linear(in_features=482, out_features=64, bias=True)
+              (1): SiLU()
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): SiLU()
+            )
+            (mean_out): Linear(in_features=64, out_features=1, bias=True)
+          )
+        )
+      )
+    )
+    (aggregation): BPNNStructureWiseAggregation()
+    (response): ForceRespone()
+  )
+  (loss_fn): EnergyForceLoss(
+    (energy_loss): MSELoss()
+    (force_loss): MSELoss()
+  )
+  (loss_rmse): EnergyForceLoss(
+    (energy_loss): MSELoss()
+    (force_loss): MSELoss()
+  )
+  (loss_mae): EnergyForceLoss(
+    (energy_loss): L1Loss()
+    (force_loss): L1Loss()
+  )
+  (energy_transformer): CompositionTransformer(
+    (calc): AtomicComposition()
+  )
+)
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+`Trainer(val_check_interval=1.0)` was configured so validation will run at the end of the training epoch..
+
+  | Name               | Type                   | Params
+--------------------------------------------------------------
+0 | model              | BPNNModel              | 70.3 K
+1 | loss_fn            | EnergyForceLoss        | 0     
+2 | loss_rmse          | EnergyForceLoss        | 0     
+3 | loss_mae           | EnergyForceLoss        | 0     
+4 | energy_transformer | CompositionTransformer | 2     
+--------------------------------------------------------------
+70.3 K    Trainable params
+2         Non-trainable params
+70.3 K    Total params
+0.281     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/kellner/miniconda3/envs/metatens/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:442: PossibleUserWarning: The dataloader, val_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 72 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+/home/kellner/miniconda3/envs/metatens/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:442: PossibleUserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 72 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+/home/kellner/miniconda3/envs/metatens/lib/python3.10/site-packages/torch/autograd/__init__.py:200: UserWarning: second derivatives with respect to positions are not implemented and will not be accumulated during backward() calls. If you need second derivatives, please open an issue on rascaline repository. (Triggered internally at /tmp/pip-req-build-izifuv1s/rascaline-torch/src/autograd.cpp:314.)
+  Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+Epoch 00099: reducing learning rate of group 0 to 5.0000e-03.
+Epoch 00178: reducing learning rate of group 0 to 2.5000e-03.
+Epoch 00221: reducing learning rate of group 0 to 1.2500e-03.
+Epoch 00308: reducing learning rate of group 0 to 6.2500e-04.
+Epoch 00366: reducing learning rate of group 0 to 3.1250e-04.
+Epoch 00382: reducing learning rate of group 0 to 1.5625e-04.
+Epoch 00398: reducing learning rate of group 0 to 7.8125e-05.
+Epoch 00427: reducing learning rate of group 0 to 3.9063e-05.
+Epoch 00443: reducing learning rate of group 0 to 1.9531e-05.
+Epoch 00459: reducing learning rate of group 0 to 9.7656e-06.
+Epoch 00475: reducing learning rate of group 0 to 4.8828e-06.
+Epoch 00491: reducing learning rate of group 0 to 2.4414e-06.
+`Trainer.fit` stopped: `max_epochs=500` reached.
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/kellner/miniconda3/envs/metatens/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:442: PossibleUserWarning: The dataloader, test_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 72 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+       Test metric             DataLoader 0
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+    test_energy_%rmse      0.027118589037650753
+     test_energy_mae         0.229995941518564
+     test_energy_mse        0.13235324071655272
+    test_energy_rmse        0.36380384923273246
+    test_forces_%rmse       0.03165426797038661
+     test_forces_mae       0.041616530603630866
+     test_forces_mse       0.004685983770402136
+    test_forces_rmse        0.0684542458172036
+        test_loss           0.13703922448695485
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+wandb: Waiting for W&B process to finish... (success).
+wandb: 
+wandb: Run history:
+wandb:               epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:             lr-Adam ████████▄▄▄▄▄▄▃▃▃▃▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:   test_energy_%rmse ▁
+wandb:     test_energy_mae ▁
+wandb:     test_energy_mse ▁
+wandb:    test_energy_rmse ▁
+wandb:   test_forces_%rmse ▁
+wandb:     test_forces_mae ▁
+wandb:     test_forces_mse ▁
+wandb:    test_forces_rmse ▁
+wandb:           test_loss ▁
+wandb:          train_loss █▄▄▇▅▁▁▅▄▅▁▂▄▄▃▁▄▃▃▂▂▃▂▂▂▃▂▃▂▁▁▃▄▃▃▂▃▁▂▃
+wandb: trainer/global_step ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▄▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:    val_energy_%rmse █▅▄▂▃▃▃▅▁▁▁▁▂▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:      val_energy_mae █▅▄▂▃▃▄▅▁▁▁▁▂▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:      val_energy_mse █▃▂▁▂▂▂▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:     val_energy_rmse █▅▄▂▃▃▃▅▁▁▁▁▂▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:    val_forces_%rmse █▄▃▃▂▂▂▂▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:      val_forces_mae █▅▃▄▂▂▂▂▁▁▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:      val_forces_mse █▄▃▃▂▂▂▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:     val_forces_rmse █▄▃▃▂▂▂▂▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            val_loss █▃▂▁▂▂▂▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:               epoch 500
+wandb:             lr-Adam 0.0
+wandb:   test_energy_%rmse 0.02712
+wandb:     test_energy_mae 0.23
+wandb:     test_energy_mse 0.13235
+wandb:    test_energy_rmse 0.3638
+wandb:   test_forces_%rmse 0.03165
+wandb:     test_forces_mae 0.04162
+wandb:     test_forces_mse 0.00469
+wandb:    test_forces_rmse 0.06845
+wandb:           test_loss 0.13704
+wandb:          train_loss 0.00147
+wandb: trainer/global_step 159500
+wandb:    val_energy_%rmse 0.02765
+wandb:      val_energy_mae 0.26519
+wandb:      val_energy_mse 0.16408
+wandb:     val_energy_rmse 0.40506
+wandb:    val_forces_%rmse 0.03043
+wandb:      val_forces_mae 0.04165
+wandb:      val_forces_mse 0.00459
+wandb:     val_forces_rmse 0.06778
+wandb:            val_loss 0.16867
+wandb: 
+wandb: 🚀 View run 6 at: https://wandb.ai/bananenpampe/H2O-mse-mean-only-ensemble/runs/sfkedecm
+wandb: ️⚡ View job at https://wandb.ai/bananenpampe/H2O-mse-mean-only-ensemble/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjk4NjY3MDk1/version_details/v0
+wandb: Synced 6 W&B file(s), 0 media file(s), 3 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20230918_020712-sfkedecm/logs
