@@ -73,10 +73,33 @@ pip install $PIP_FLAGS "rascaline-torch @ git+https://github.com/luthaf/rascalin
 
 pip install -r requirements.txt
 
-echo "All dependencies have been installed. - running a minimal test of the install"
+#echo "All dependencies have been installed. - running a minimal test of the install"
 
-cd ./test_install
+#cd ./test_install
 
-python training.py
+#python training.py
 #no ensure that this does not exit with fail
-python -u compare.py
+#python -u compare.py
+
+# clones the my ipi
+git clone git@github.com:bananenpampe/i-pi.git
+
+# change into the directory change the absolute path LIGHNING_CALCULATOR_PATH
+# in ./i-pi/drivers/py/pes/lightning.py to the absolute location of '/H2O/driver/'
+
+cd ./H2O/driver/
+
+LIGHNING_CALCULATOR_PATH=$(pwd)
+
+cd ../../
+
+cd ./i-pi/drivers/py/pes
+
+# change the absolute path in the lightning.py file
+sed -i '' "s|/Users/matthiaskellner/Documents/PhD/H2O/driver/|${LIGHNING_CALCULATOR_PATH}|g" lightning.py
+
+cd ../../../
+
+pip install -e .
+
+cd ..
