@@ -162,15 +162,15 @@ dataloader_test = create_rascaline_dataloader(frames_water_test,
 #COPY YOUR WANDB API KEY HERE, or load it fromn a file
 
 #read wandb api code from file
-#wandb_api_key = "YOUR_API"
+#
 
-#wandb.login(key=wandb_api_key)
+#
 #wandb_logger = WandbLogger(name="eval-run-1", project="LiPS", log_model=True)
-#wandb_logger.experiment.config["key"] = wandb_api_key
+#
 
 # log the descriptor hyperparameters
-#wandb_logger.log_hyperparams({"hypers radial spectrum": hypers_rs})
-#wandb_logger.log_hyperparams({"hypers power spectrum": hypers_ps})
+#
+#
 
 """
 print("train split:",id_train)

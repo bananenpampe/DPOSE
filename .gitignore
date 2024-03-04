@@ -197,6 +197,6 @@ Atomistic_experiments/materials_model_predictions/H2O_size_extensive/size_M_pred
 wandb/
 
 #ignores the BPNN model
-BPNN_model/H2O/
+Atomistic_experiments/BPNN_model/H2O/
 #ignores the rust_installation
-BPNN_model/rust_installation/
+Atomistic_experiments/BPNN_model/rust_installation/

@@ -4,13 +4,14 @@ import pytorch_lightning as pl
 import sys
 import os
 
-sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), "..", "model"))
+sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), "..", "..", "..", "BPNN_model", "H2O", "model"))
+sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), "..", "..", "..", "BPNN_model", "H2O", "utils"))
 
 from metatensor.torch import TensorBlock, Labels, TensorMap
 from nn.model import BPNNModel
 from nn.interaction import BPNNInteraction
-from nn.response import ForceUncertaintyRespone
-from nn.loss import EnergyForceLoss, EnergyForceUncertaintyLoss
+from nn.response import ForceRespone
+from nn.loss import EnergyForceLoss, EnergyForceLoss
 from transformer.composition import CompositionTransformer
 
 
@@ -20,11 +21,11 @@ class BPNNRascalineModule(pl.LightningModule):
                  example_tensormap,
                  energy_transformer=CompositionTransformer(),
                  model = BPNNModel(
-                 interaction=BPNNInteraction(activation=torch.nn.SiLU, n_hidden=64, n_out=64),
-                 response=ForceUncertaintyRespone()
+                 interaction=BPNNInteraction(activation=torch.nn.SiLU, n_hidden=64, n_out=1),
+                 response=ForceRespone()
                  ),
-                 loss_fn = EnergyForceUncertaintyLoss,
-                 energy_loss = torch.nn.GaussianNLLLoss,
+                 loss_fn = EnergyForceLoss,
+                 energy_loss = torch.nn.MSELoss,
                  force_loss = torch.nn.MSELoss,
                  regularization=1e-03,
                  w_force_uncertainty=False):
@@ -37,8 +38,7 @@ class BPNNRascalineModule(pl.LightningModule):
         
         self.loss_fn = loss_fn(w_forces=True,
                                force_weight=0.999,
-                               base_loss=energy_loss,
-                               force_loss=force_loss,)
+                               base_loss=energy_loss)
 
         self.loss_rmse = EnergyForceLoss(w_forces=True,
                                 force_weight=0.999,

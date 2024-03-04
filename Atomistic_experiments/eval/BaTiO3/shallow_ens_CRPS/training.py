@@ -1,14 +1,14 @@
 import sys
 import os
 
-sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), "..", "..", "model"))
-sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), "..", "..", "BPNN_model", "H2O", "utils"))
+sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), "..", "..", "..", "BPNN_model", "H2O", "model"))
+sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), "..", "..", "..", "BPNN_model", "H2O", "utils"))
 
 import wandb
 from pytorch_lightning import Trainer
 from pytorch_lightning.loggers import WandbLogger
 from rascaline_trainer import BPNNRascalineModule
-from load import load_PBE0_TS
+ 
 from dataset.dataset import create_rascaline_dataloader
 import rascaline
 import rascaline.torch
@@ -31,9 +31,9 @@ SEED = 0
 random.seed(SEED)
 
 # --- define the hypers ---
-frames_water_train = ase.io.read("../train.xyz",":")
-frames_water_val = ase.io.read("../val.xyz", ":")
-frames_water_test = ase.io.read("../test.xyz", ":")
+frames_water_train = ase.io.read("../../../data/BaTiO3/train.xyz",":")
+frames_water_val = ase.io.read("../../../data/BaTiO3/val.xyz", ":")
+frames_water_test = ase.io.read("../../../data/BaTiO3/test.xyz", ":")
 
 """
 {
@@ -148,15 +148,6 @@ dataloader_test = create_rascaline_dataloader(frames_water_test,
 #COPY YOUR WANDB API KEY HERE, or load it fromn a file
 
 #read wandb api code from file
-wandb_api_key = "YOURWANDBAPIKEYHERE"
-
-wandb.login(key=wandb_api_key)
-wandb_logger = WandbLogger(name="eval-run-1", project="BaTiO3", log_model=True)
-wandb_logger.experiment.config["key"] = wandb_api_key
-
-# log the descriptor hyperparameters
-wandb_logger.log_hyperparams({"hypers radial spectrum": hypers_rs})
-wandb_logger.log_hyperparams({"hypers power spectrum": hypers_ps})
 
 
 feat, prop, syst = next(iter(dataloader))
@@ -172,7 +163,7 @@ lr_monitor = LearningRateMonitor(logging_interval='epoch')
 trainer = Trainer(max_epochs=500,
                   precision=64,
                   accelerator="cpu",
-                  logger=wandb_logger,
+                  logger=None,
                   callbacks=[lr_monitor],
                   gradient_clip_val=100,
                   enable_progress_bar=False,

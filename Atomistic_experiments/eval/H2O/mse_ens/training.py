@@ -1,14 +1,14 @@
 import sys
 import os
 
-sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), "..", "..", "model"))
-sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), "..", "..", "BPNN_model", "H2O", "utils"))
+sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), "..", "..", "..", "BPNN_model", "H2O", "model"))
+sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), "..", "..", "..", "BPNN_model", "H2O", "utils"))
 
 import wandb
 from pytorch_lightning import Trainer
 from pytorch_lightning.loggers import WandbLogger
 from rascaline_trainer import BPNNRascalineModule
-from load import load_PBE0_TS
+ 
 from dataset.dataset import create_rascaline_dataloader
 import rascaline
 import rascaline.torch
@@ -18,7 +18,7 @@ import torch._dynamo
 import traceback as tb
 import random
 import glob
-import copy 
+import copy
 
 from transformer.composition import CompositionTransformer
 from pytorch_lightning.callbacks import LearningRateMonitor
@@ -47,18 +47,16 @@ frames_water_test = frames_water[1433:]
 SEED = 0
 random.seed(SEED)
 
-frames_water_train = ase.io.read("../64_rs_ps_4_batch_correct_w_UQ/train_frames.xyz",":")
-frames_water_val = ase.io.read("../64_rs_ps_4_batch_correct_w_UQ/validation_frames.xyz", ":")
-frames_water_test = ase.io.read("../64_rs_ps_4_batch_correct_w_UQ/test_frames.xyz", ":")
+frames_water_train = ase.io.read("../../../data/H2O/train_frames.xyz",":")
+frames_water_val = ase.io.read("../../../data/H2O/validation_frames.xyz", ":")
+frames_water_test = ase.io.read("../../../data/H2O/test_frames.xyz", ":")
 
-frames_surf_train = ase.io.read("/home/kellner/BPNN_packages/H2O/run_surface/run_1/frames_surface_train.xyz",":")
-frames_surf_val = ase.io.read("/home/kellner/BPNN_packages/H2O/run_surface/run_1/frames_surface_val.xyz",":")
-frames_surf_test = ase.io.read("/home/kellner/BPNN_packages/H2O/run_surface/run_1/frames_surface_test.xyz",":")
+#load extrapolation data
+frames_surfaces = ase.io.read("../../../../Data/Surfaces_DFT/frames_surfaces.xyz",":")
 
-frames_surfaces = frames_surf_train + frames_surf_val + frames_surf_test
-
-ckpts = glob.glob("/home/kellner/BPNN_packages/H2O/example/shallow_ens_commitee_CPRS/*/*/*/*/*.ckpt")
-
+ckpts = glob.glob("../../../training/H2O/mse_ens/*/*/*/*/*.ckpt")
+print(ckpts)
+print(len(ckpts))
 """
 id_train = []
 id_val = []
@@ -157,15 +155,6 @@ dataloader_surfaces = create_rascaline_dataloader(frames_surfaces,
 #COPY YOUR WANDB API KEY HERE, or load it fromn a file
 
 #read wandb api code from file
-wandb_api_key = "YOUR_API"
-
-wandb.login(key=wandb_api_key)
-wandb_logger = WandbLogger(project="H2O-sr",log_model=True)
-wandb_logger.experiment.config["key"] = wandb_api_key
-
-# log the descriptor hyperparameters
-wandb_logger.log_hyperparams({"hypers radial spectrum": hypers_rs})
-wandb_logger.log_hyperparams({"hypers power spectrum": hypers_ps})
 
 """
 print("train split:",id_train)
@@ -182,7 +171,7 @@ modules = []
 
 for n, c in enumerate(ckpts):
     
-    transformer_e = CompositionTransformer(multi_block=True)
+    transformer_e = CompositionTransformer()
     transformer_e.fit(syst, prop)
 
     checkpoint = torch.load(c)['state_dict']
@@ -203,8 +192,7 @@ for n, c in enumerate(ckpts):
 for module in modules:
     print(module.state_dict()["model.interaction.model.m_map.LabelsEntry(species_center=8).mean_out.weight"])
 
-
-deep_ens = DeepEnsemble(modules, kind="deep-ens")
+deep_ens = DeepEnsemble(modules, kind="mse-deep-ens")
 
 #compiled_model = torch.compile(module,fullgraph=True )
 lr_monitor = LearningRateMonitor(logging_interval='epoch')
@@ -212,7 +200,7 @@ lr_monitor = LearningRateMonitor(logging_interval='epoch')
 trainer = Trainer(max_epochs=500,
                   precision=64,
                   accelerator="cpu",
-                  logger=wandb_logger,
+                  logger=None,
                   callbacks=[lr_monitor],
                   gradient_clip_val=100,
                   enable_progress_bar=False,
@@ -264,12 +252,10 @@ feat, prop, syst = next(iter(dataloader_tmp))
 torch.save(prop.block(0).values, "tmp_energy.pt")
 torch.save(prop.block(0).gradient("positions").values, "tmp_forces.pt")
 
-E_pred, E_UQ,  E_UQ_aleatoric, E_UQ_epistemic, F_pred, F_UQ_epistemic = deep_ens.report_energy_forces(feat, syst, report_aleatoric=True)
+E_pred, E_UQ, F_pred, F_UQ_epistemic = deep_ens.report_energy_forces(feat, syst)
 torch.save(E_UQ, "tmp_pred_energy_var.pt")
 out_tmp = module.calculate(feat, syst)
 torch.save(E_pred, "tmp_pred_energy.pt")
-torch.save(E_UQ_aleatoric, "tmp_pred_energ_var_aleatoric.pt")
-torch.save(E_UQ_epistemic, "tmp_pred_energ_var_epistemic.pt")
 torch.save(F_pred, "tmp_pred_forces.pt")
 torch.save(F_UQ_epistemic, "tmp_pred_forces_var.pt")
 
@@ -278,12 +264,10 @@ feat, prop, syst = next(iter(dataloader))
 torch.save(prop.block(0).values, "train_energy.pt")
 torch.save(prop.block(0).gradient("positions").values, "train_forces.pt")
 
-E_pred, E_UQ,  E_UQ_aleatoric, E_UQ_epistemic, F_pred, F_UQ_epistemic = deep_ens.report_energy_forces(feat, syst, report_aleatoric=True)
+E_pred, E_UQ, F_pred, F_UQ_epistemic = deep_ens.report_energy_forces(feat, syst)
 torch.save(E_UQ, "train_pred_energy_var.pt")
 torch.save(E_pred, "train_pred_energy.pt")
 torch.save(F_pred, "train_pred_forces.pt")
-torch.save(E_UQ_aleatoric, "train_pred_energ_var_aleatoric.pt")
-torch.save(E_UQ_epistemic, "train_pred_energ_var_epistemic.pt")
 torch.save(F_UQ_epistemic, "train_pred_forces_var.pt")
 
 
@@ -291,12 +275,10 @@ feat, prop, syst = next(iter(dataloader_val))
 torch.save(prop.block(0).values, "val_energy.pt")
 torch.save(prop.block(0).gradient("positions").values, "val_forces.pt")
 
-E_pred, E_UQ,  E_UQ_aleatoric, E_UQ_epistemic, F_pred, F_UQ_epistemic = deep_ens.report_energy_forces(feat, syst, report_aleatoric=True)
+E_pred, E_UQ, F_pred, F_UQ_epistemic = deep_ens.report_energy_forces(feat, syst)
 torch.save(E_UQ, "val_pred_energy_var.pt")
 torch.save(E_pred, "val_pred_energy.pt")
 torch.save(F_pred, "val_pred_forces.pt")
-torch.save(E_UQ_aleatoric, "val_pred_energ_var_aleatoric.pt")
-torch.save(E_UQ_epistemic, "val_pred_energ_var_epistemic.pt")
 torch.save(F_UQ_epistemic, "val_pred_forces_var.pt")
 
 
@@ -304,22 +286,20 @@ feat, prop, syst = next(iter(dataloader_test))
 torch.save(prop.block(0).values, "test_energy.pt")
 torch.save(prop.block(0).gradient("positions").values, "test_forces.pt")
 
-E_pred, E_UQ,  E_UQ_aleatoric, E_UQ_epistemic, F_pred, F_UQ_epistemic = deep_ens.report_energy_forces(feat, syst, report_aleatoric=True)
+E_pred, E_UQ, F_pred, F_UQ_epistemic = deep_ens.report_energy_forces(feat, syst)
 torch.save(E_UQ, "test_pred_energy_var.pt")
 torch.save(E_pred, "test_pred_energy.pt")
 torch.save(F_pred, "test_pred_forces.pt")
-torch.save(E_UQ_aleatoric, "test_pred_energ_var_aleatoric.pt")
-torch.save(E_UQ_epistemic, "test_pred_energ_var_epistemic.pt")
 torch.save(F_UQ_epistemic, "test_pred_forces_var.pt")
+
 
 feat, prop, syst = next(iter(dataloader_surfaces))
 torch.save(prop.block(0).values, "surfaces_energy.pt")
 torch.save(prop.block(0).gradient("positions").values, "surfaces_forces.pt")
 
-E_pred, E_UQ,  E_UQ_aleatoric, E_UQ_epistemic, F_pred, F_UQ_epistemic = deep_ens.report_energy_forces(feat, syst, report_aleatoric=True)
+E_pred, E_UQ, F_pred, F_UQ_epistemic = deep_ens.report_energy_forces(feat, syst)
 torch.save(E_UQ, "surfaces_pred_energy_var.pt")
 torch.save(E_pred, "surfaces_pred_energy.pt")
 torch.save(F_pred, "surfaces_pred_forces.pt")
-torch.save(E_UQ_aleatoric, "surfaces_pred_energ_var_aleatoric.pt")
-torch.save(E_UQ_epistemic, "surfaces_pred_energ_var_epistemic.pt")
 torch.save(F_UQ_epistemic, "surfaces_pred_forces_var.pt")
+
