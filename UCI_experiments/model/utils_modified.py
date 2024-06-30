@@ -289,3 +289,9 @@ def get_toy():
     y = 0.4*torch.sin(2*torch.pi*x) + torch.normal(0, 0.01, (1000,))
 
     return x.reshape(-1,1), y.reshape(-1,1)
+
+def get_toy_linear():
+    x = torch.linspace(0, 12, 1000)
+    y = x + torch.normal(0, 1, (1000,))
+
+    return x.reshape(-1,1), y.reshape(-1,1)
