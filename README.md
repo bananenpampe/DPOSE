@@ -1,3 +1,8 @@
+
+
+[![DOI](https://zenodo.org/badge/763071315.svg)](https://zenodo.org/doi/10.5281/zenodo.12600916)
+
+
 # DPOSE
 Contains supplementary code and data for the \
 "Uncertainty quantification by direct propagation of shallow ensembles" 
